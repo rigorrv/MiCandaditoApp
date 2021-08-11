@@ -50,6 +50,7 @@
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,10 +60,10 @@
             android:id="@+id/list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:nestedScrollingEnabled="false" />
+            android:nestedScrollingEnabled="false"
+            tools:listitem="@layout/direction_items" />
 
     </androidx.core.widget.NestedScrollView>
-
 
 
     <RadioGroup
@@ -116,8 +117,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
-            app:tint="#172233"
-            app:srcCompat="@drawable/ic_circulo" />
+            app:srcCompat="@drawable/ic_circulo"
+            app:tint="#172233" />
 
         <ImageView
             android:id="@+id/circulo2"
@@ -125,8 +126,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="5dp"
-            app:tint="#FFFFFF"
-            app:srcCompat="@drawable/ic_circulo" />
+            app:srcCompat="@drawable/ic_circulo"
+            app:tint="#FFFFFF" />
 
         <ImageView
             android:id="@+id/circulo3"
@@ -134,8 +135,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="5dp"
-            app:tint="#FFFFFF"
-            app:srcCompat="@drawable/ic_circulo" />
+            app:srcCompat="@drawable/ic_circulo"
+            app:tint="#FFFFFF" />
 
         <ImageView
             android:id="@+id/circulo4"
@@ -143,8 +144,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="5dp"
-            app:tint="#FFFFFF"
-            app:srcCompat="@drawable/ic_circulo" />
+            app:srcCompat="@drawable/ic_circulo"
+            app:tint="#FFFFFF" />
 
         <ImageView
             android:id="@+id/circulo5"
@@ -152,8 +153,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="5dp"
-            app:tint="#FFFFFF"
-            app:srcCompat="@drawable/ic_circulo" />
+            app:srcCompat="@drawable/ic_circulo"
+            app:tint="#FFFFFF" />
 
         <ImageView
             android:id="@+id/circulo6"
@@ -161,8 +162,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="5dp"
-            app:tint="#FFFFFF"
-            app:srcCompat="@drawable/ic_circulo" />
+            app:srcCompat="@drawable/ic_circulo"
+            app:tint="#FFFFFF" />
 
     </LinearLayout>
 

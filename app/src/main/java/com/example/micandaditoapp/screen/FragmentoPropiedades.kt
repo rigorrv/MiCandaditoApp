@@ -18,7 +18,7 @@ import com.example.micandaditoapp.model.mockData
 import com.example.micandaditoapp.screen.fragmentos.FragmentoBusquedaConfig
 import com.example.testingrecyclerviewselection.adapters.propiedadesinfoadapter.PicturesAdapter
 
-class FragmentoPropiedadesCompRenta : Fragment() {
+class FragmentoPropiedades : Fragment() {
     private lateinit var adapter: PropidadesAdapter
     lateinit var rootView: FragmentPropiedadesBinding
 

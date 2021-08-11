@@ -25,7 +25,6 @@ class ViewHolder(override val containerView: View) :
         itemView.direccionRecyclerTxt.text = "$${info.direccion}"
         itemView.precioRecyclerTxt.text = "$${info.pagoMaximo}"
         itemView.masInfoBtn.text = "Info aqui"
-        itemView.houseIcon.setBackgroundResource(R.drawable.house0001)
         if (isSelected) {
             itemView.direccionRecyclerTxt.setFilters(arrayOf<InputFilter>(LengthFilter(50)))
             itemView.infoBtn.visibility = View.VISIBLE

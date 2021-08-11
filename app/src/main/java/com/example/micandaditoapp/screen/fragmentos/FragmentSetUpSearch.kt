@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.commit
 import com.example.micandaditoapp.R
 import com.example.micandaditoapp.databinding.*
-import com.example.micandaditoapp.screen.FragmentoPropiedadesCompRenta
+import com.example.micandaditoapp.screen.FragmentoPropiedades
 
 
 class FragmentSetUpSearch : Fragment() {
@@ -27,7 +27,7 @@ class FragmentSetUpSearch : Fragment() {
         super.onActivityCreated(savedInstanceState)
         rootView.aceptarInfoBtn.setOnClickListener {
             activity?.supportFragmentManager?.commit {
-                replace(R.id.fragment2, FragmentoPropiedadesCompRenta(), "VentaRenta")
+                replace(R.id.fragment2, FragmentoPropiedades(), "VentaRenta")
                 addToBackStack(null)
             }
         }
